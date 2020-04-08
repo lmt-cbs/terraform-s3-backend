@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "s3backend" {
-  source = "lmtbelmonte/terraform-s3-backend"
+  source = "scottwinkler/s3backend/aws"
   namespace     = "pokemon"
 }
  
